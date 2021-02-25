@@ -14,6 +14,6 @@ $ docker build -t bain/slim . # bain/slim can be any tag name you wish
 ```
 4. run a container in interactive mode
 ```sh
-$ docker -it bain/slim
+$ docker run -it bain/slim
 ```
 
