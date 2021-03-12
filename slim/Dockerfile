@@ -17,6 +17,8 @@ RUN cmake /SLiM \
 RUN ln -s /build/slim /usr/bin/slim
 WORKDIR /
 
+CMD ["slim"]
+
 # meta 
 LABEL version="0.1"
 LABEL maintainer="James Bain"
